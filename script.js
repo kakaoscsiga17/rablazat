@@ -3,4 +3,6 @@ function getRandomInt(min, max) {
 }
 const randomNumber = getRandomInt(1, 16);
 console.log(randomNumber);
-function
+function addHello() {
+    console.log(hello);
+}

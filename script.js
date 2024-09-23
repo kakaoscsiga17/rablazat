@@ -1,8 +1,9 @@
 function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-const randomNumber = getRandomInt(1, 16);
-console.log(randomNumber);
+
 function addHello() {
-    console.log(hello);
+  const elem = document.querySelector("#c"+getRandomInt(1, 16))
+  console.log(elem)
+  elem = addHello
 }

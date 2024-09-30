@@ -5,5 +5,5 @@ function getRandomInt(min, max) {
 function addHello() {
   const elem = document.querySelector("#c"+getRandomInt(1, 16))
   console.log(elem)
-  elem = addHello
+  elem.innerHTML='Hello'
 }
